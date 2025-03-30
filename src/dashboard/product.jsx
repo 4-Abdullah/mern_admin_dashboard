@@ -34,7 +34,7 @@ export function Product( {product} ) {
         
       console.log(product._id)
      
-      const response = await fetch('/products', {
+      const response = await fetch('https://mern-back-end-production.up.railway.app/products', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

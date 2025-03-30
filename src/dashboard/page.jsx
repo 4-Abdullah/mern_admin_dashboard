@@ -20,7 +20,7 @@ console.log(offset)
   useEffect(()=>{
     (async () => {
       
-        const response = await fetch(`/products`);
+        const response = await fetch(`https://mern-back-end-production.up.railway.app/products`);
         
         console.log("Status Code:", response.status);
         console.log("Response OK?", response.ok);

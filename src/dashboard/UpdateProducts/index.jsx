@@ -88,7 +88,7 @@ for (const key in productData) {
         formData.append("id", id);
         
         try {
-          const response = await fetch(`/products`, {
+          const response = await fetch(`https://mern-back-end-production.up.railway.app/products`, {
             method: 'PUT',
             body: (formData),
           });

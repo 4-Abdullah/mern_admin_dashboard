@@ -71,7 +71,7 @@ const AddNewProducts = () => {
         
 
         try {
-          const response = await fetch('/products', {
+          const response = await fetch('https://mern-back-end-production.up.railway.app/products', {
             method: 'POST',
             body: (formData),
           });
