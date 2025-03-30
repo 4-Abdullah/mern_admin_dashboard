@@ -33,7 +33,7 @@
     "tabWidth": 2,
     "trailingComma": "none"
   },
-  "proxy": "http://localhost:3500",
+  "proxy": "https://mern-back-end-production.up.railway.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
